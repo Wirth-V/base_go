@@ -25,6 +25,6 @@ func main() {
 
 	fmt.Println(s)
 	fmt.Printf("\n")
-	fmt.Printf("%s", s)
+	fmt.Printf("%s\n", s)
 
 }

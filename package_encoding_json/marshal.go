@@ -26,8 +26,11 @@ func main() {
 		return
 	}
 
+	fmt.Println("json struct:")
 	fmt.Println(data)
+
 	fmt.Printf("\n")
-	fmt.Printf("%s", data)
+	fmt.Println("normal struct:")
+	fmt.Printf("%s\n", data) //или fmt.Println(string(data))
 
 }
